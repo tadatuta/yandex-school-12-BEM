@@ -1,0 +1,8 @@
+.CardsContainer {
+  grid-area: CardsContainer;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 1.15rem;
+  grid-row-gap: 2rem; 
+  grid-auto-flow: dense;
+}

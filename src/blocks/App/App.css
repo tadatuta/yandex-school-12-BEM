@@ -1,11 +1,13 @@
+html {
+  font-size: 14px;
+}
+
 .App {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr  704px 1fr;
+  grid-template-areas:
+    ". App-Header ."
+    ". CardsContainer .";
+  grid-row-gap: 40px;
 }
 
-.App-Title {
-  font-size: 1.5em;
-}
-
-.App-Intro {
-  font-size: large;
-}

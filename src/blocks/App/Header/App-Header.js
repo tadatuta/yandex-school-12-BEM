@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { decl, Bem } from 'bem-react-core';
 
 import 'e:Logo';
-import logoSvg from '../Logo/App-Logo.svg';
+import logoSvg from '../Logo/App-logo@3x.png';
 
 export default decl({
   block: 'App',
@@ -12,7 +12,6 @@ export default decl({
     return (
       <Fragment>
         <Bem elem="Logo" tag="img" src={logoSvg} alt="logo"/>
-        <Bem elem="Title" tag="h1">Welcome to React</Bem>
       </Fragment>
     );
   }

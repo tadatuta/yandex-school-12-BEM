@@ -1,0 +1,9 @@
+.CardsContainer-Card_type_medium {
+  grid-column: span 3;
+  height: 300px;
+  grid-template-areas:
+    "CardTitle CardTitle"
+    "CardImage CardImage"
+    "CardDescription CardButtons";
+  grid-template-rows: auto 1fr auto;
+}
