@@ -1,3 +1,25 @@
 .CardsContainer-CardButtons {
   grid-area: CardButtons;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.CardsContainer-CardButtons button {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+}
+
+.CardsContainer-ReadMoreButton {
+  background-image: url(../../../assets/Actions.png);
+}
+
+.CardsContainer-LikeButton {
+  background-image: url(../../../assets/Heart.png);
 }

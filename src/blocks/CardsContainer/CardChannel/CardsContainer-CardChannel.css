@@ -1,0 +1,7 @@
+.CardsContainer-CardChannel {
+  grid-area: CardChannel;
+  display: flex;
+  align-items: center;
+  font-family: "YS Text";
+  font-weight: 700;
+}

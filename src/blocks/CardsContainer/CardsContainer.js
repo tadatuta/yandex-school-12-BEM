@@ -34,7 +34,7 @@ export default decl({
       default:
         break;
     }
-    return 'medium';
+    return type;
   },
 
   createCards() {

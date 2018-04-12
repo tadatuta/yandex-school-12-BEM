@@ -17,7 +17,7 @@ export default declMod({ type: 'medium' }, {
       <Fragment>
         {this.__base(...arguments)}
         <CardImage src={image} />
-        <CardDescription description={description} />
+        <CardDescription description={description} linesAmount={3} />
         <CardButtons />
       </Fragment>
     )

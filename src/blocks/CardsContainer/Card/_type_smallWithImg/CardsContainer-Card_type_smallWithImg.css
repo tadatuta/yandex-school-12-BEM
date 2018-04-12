@@ -1,3 +1,19 @@
 .CardsContainer-Card_type_smallWithImg {
-  background-color: blue;
+  grid-column: span 2;
+  height: 230px;
+  grid-template-columns: 100% 0%;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "CardTitle CardTitle"
+    "CardImage CardButtons";
+}
+
+.CardsContainer-Card_type_smallWithImg .CardsContainer-CardTitleText {
+  font-size: 1.214rem;
+}
+
+.CardsContainer-Card_type_smallWithImg .CardsContainer-CardButtons {
+  position: absolute;
+  margin-left: -30px;
+  height: 90%;
 }

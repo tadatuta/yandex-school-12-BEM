@@ -17,8 +17,8 @@ export default declMod({ type: 'large' }, {
       <Fragment>
         {this.__base(...arguments)}
         <CardImage src={image} />
-        <CardDescription description={description} />
-        <CardButtons />
+        <CardDescription description={description} linesAmount={6} />
+        <CardButtons  isRowDirection={true}/>
       </Fragment>
     )
   }

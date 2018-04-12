@@ -4,15 +4,11 @@ import TextTruncate from 'react-text-truncate';
 
 export default decl({
   block: 'CardsContainer',
-  elem: 'CardDescription',
+  elem: 'CardChannel',
   content() {
-    const { description, linesAmount } = this.props;
+    const { channelName } = this.props;
     return (
-      <TextTruncate
-        line={linesAmount}
-        truncateText="…"
-        text={description}
-      />
+      <span>{channelName}</span>
     )
   }
 });
