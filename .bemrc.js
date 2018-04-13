@@ -11,6 +11,11 @@ module.exports = {
       scheme: 'nested'
     },
     {
+      layer: 'mobile',
+      path: 'src/mobile',
+      'scheme': 'nested'
+    },
+    {
       layer: 'touch',
       path: 'src/touch',
       scheme: 'nested'
@@ -19,6 +24,7 @@ module.exports = {
   // remove sets to build one universal bundle for index.html
   sets: {
     desktop: 'common desktop',
+    mobile: 'common mobile',
     touch: 'common touch'
   },
   modules: {

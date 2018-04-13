@@ -1,0 +1,12 @@
+.CardsContainer-Card_type_large {
+  height: auto;
+  grid-template-columns: 90% 10%;
+  grid-template-areas: 
+  "CardTitle CardTitle" 
+  "CardImage CardImage"
+  "CardDescription CardButtons";
+}
+
+.CardsContainer-Card_type_large .CardsContainer-CardButtons {
+  margin-left: -12px;
+}

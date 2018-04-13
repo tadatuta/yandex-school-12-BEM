@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { declMod, Bem } from 'bem-react-core';
 
+import CardTitle from  'e:CardTitle';
 import CardImage from 'e:CardImage';
 import CardDescription from 'e:CardDescription';
 import CardButtons from 'e:CardButtons';
@@ -14,6 +15,7 @@ export default declMod({ type: 'smallWithText' }, {
   content() {
     const {
       title,
+      titleColor,
       channelName,
       description,
     } = this.props.data;
@@ -21,7 +23,7 @@ export default declMod({ type: 'smallWithText' }, {
     const descriptionLines = 9 - Math.ceil(titleLength/TITLE_LINE_LENGTH);
     return (
       <Fragment>
-        {this.__base(...arguments)}
+        <CardTitle title={title} titleColor={titleColor} />
         <CardDescription description={description} linesAmount={descriptionLines}/>
         <CardChannel channelName={channelName}></CardChannel>
         <CardButtons isRowDirection={true}/>

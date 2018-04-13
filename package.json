@@ -2,6 +2,7 @@
   "name": "bem-react-boilerplate",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-es2015": "6.24.1",

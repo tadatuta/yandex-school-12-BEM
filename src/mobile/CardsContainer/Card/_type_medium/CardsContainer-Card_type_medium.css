@@ -1,0 +1,18 @@
+.CardsContainer-Card_type_medium {
+  height: auto;
+  grid-column: span 6;
+  grid-template-areas: 
+  "CardTitle CardTitle" 
+  "CardImage CardImage"
+  "CardDescription CardButtons";
+  grid-template-rows: auto auto auto;
+}
+
+.CardsContainer-Card_type_medium .CardsContainer-Picture {
+  position: relative;
+  bottom: 0px;
+}
+
+.CardsContainer-Card_type_medium .CardsContainer-CardButtons {
+  margin-top: -10px;
+}

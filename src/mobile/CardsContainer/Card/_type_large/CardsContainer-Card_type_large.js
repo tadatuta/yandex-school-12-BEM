@@ -11,7 +11,7 @@ export default declMod({ type: 'large' }, {
   elem: 'Card',
   content() {
     const {
-      title,
+      title, 
       titleColor,
       image,
       description,
@@ -21,7 +21,7 @@ export default declMod({ type: 'large' }, {
         <CardTitle title={title} titleColor={titleColor} />
         <CardImage src={image} />
         <CardDescription description={description} linesAmount={6} />
-        <CardButtons  isRowDirection={true}/>
+        <CardButtons  isRowDirection={false}/>
       </Fragment>
     )
   }

@@ -1,0 +1,10 @@
+.CardsContainer-Card_type_smallWithText {
+  grid-column: span 3;
+  height: auto;
+}
+
+@media screen and (max-width: 300px) {
+  .CardsContainer-Card_type_smallWithText {
+    grid-column: span 6;
+  }
+}
