@@ -1,0 +1,13 @@
+.CardsContainer-Card_type_smallWithImg {
+  height: 260px;
+}
+
+.CardsContainer-Card_type_smallWithImg .CardsContainer-CardButtons {
+
+  
+  justify-content: flex-end;
+}
+
+.CardsContainer-Card_type_smallWithImg .CardsContainer-CardButtons button {
+  padding: 20px 5px;
+}

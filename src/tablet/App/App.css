@@ -1,0 +1,12 @@
+html {
+  font-size: 13px;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr  550px 1fr;
+  grid-template-areas:
+    ". App-Header ."
+    ". CardsContainer .";
+  grid-row-gap: 40px;
+}

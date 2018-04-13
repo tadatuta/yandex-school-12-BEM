@@ -16,8 +16,8 @@ module.exports = {
       'scheme': 'nested'
     },
     {
-      layer: 'touch',
-      path: 'src/touch',
+      layer: 'tablet',
+      path: 'src/tablet',
       scheme: 'nested'
     }
   ],
@@ -25,7 +25,7 @@ module.exports = {
   sets: {
     desktop: 'common desktop',
     mobile: 'common mobile',
-    touch: 'common touch'
+    tablet: 'common tablet'
   },
   modules: {
     'bem-tools': {
