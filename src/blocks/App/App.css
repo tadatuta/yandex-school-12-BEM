@@ -2,5 +2,6 @@ html {
   font-size: 14px;
 }
 
-
-
+.App {
+  padding-bottom: 20px;
+}

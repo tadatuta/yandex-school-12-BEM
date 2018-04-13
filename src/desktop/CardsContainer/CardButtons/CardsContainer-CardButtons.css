@@ -1,0 +1,3 @@
+.CardsContainer-CardButtons button:hover {
+  filter: brightness(0.4);
+}
