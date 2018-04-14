@@ -13,7 +13,7 @@ module.exports = {
     {
       layer: 'mobile',
       path: 'src/mobile',
-      'scheme': 'nested'
+      scheme: 'nested'
     },
     {
       layer: 'tablet',

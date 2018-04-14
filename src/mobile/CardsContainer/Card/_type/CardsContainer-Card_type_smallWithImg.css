@@ -8,3 +8,7 @@
     height: 200px;
   }
 }
+
+.CardsContainer-Card_type_smallWithImg .CardsContainer-CardButtons {
+  height: 80%;
+}
