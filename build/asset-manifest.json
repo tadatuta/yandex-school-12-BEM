@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/tablet.css",
-  "main.css.map": "static/css/tablet.css.map",
-  "main.js": "static/js/tablet.js",
-  "main.js.map": "static/js/tablet.js.map",
+  "main.css": "static/css/desktop.css",
+  "main.css.map": "static/css/desktop.css.map",
+  "main.js": "static/js/desktop.js",
+  "main.js.map": "static/js/desktop.js.map",
   "static/media/1.png": "static/media/1.1c048791.png",
   "static/media/10.png": "static/media/10.ea113c7d.png",
   "static/media/10@2x.png": "static/media/10@2x.c7bdf985.png",
