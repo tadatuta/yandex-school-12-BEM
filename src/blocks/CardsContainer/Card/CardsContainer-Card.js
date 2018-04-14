@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 import { decl, Bem } from 'bem-react-core';
 
-import 'm:type_smallWithImg';
-import 'm:type_smallWithText';
-import 'm:type_medium';
-import 'm:type_large';
+import 'm:type=smallWithImg';
+import 'm:type=smallWithText';
+import 'm:type=medium';
+import 'm:type=large';
 
 export default decl({
   block: 'CardsContainer',
