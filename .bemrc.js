@@ -2,22 +2,22 @@ module.exports = {
   levels: [
     {
       layer: 'common',
-      path: 'src/blocks',
+      path: 'src/levels/blocks',
       scheme: 'nested'
     },
     {
       layer: 'desktop',
-      path: 'src/desktop',
+      path: 'src/levels/desktop',
       scheme: 'nested'
     },
     {
       layer: 'mobile',
-      path: 'src/mobile',
+      path: 'src/levels/mobile',
       scheme: 'nested'
     },
     {
       layer: 'tablet',
-      path: 'src/tablet',
+      path: 'src/levels/tablet',
       scheme: 'nested'
     }
   ],
@@ -32,7 +32,7 @@ module.exports = {
       plugins: {
         create: {
           levels: {
-            'src/blocks': { default: true }
+            'src/levels/blocks': { default: true }
           },
           techs: ['js', 'css'],
           templates: {

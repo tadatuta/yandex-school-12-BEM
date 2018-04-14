@@ -11,8 +11,8 @@ export default decl({
     const imageMiddleName = srcWithoutExt + `@2x.png`;
     const imageLargeName = srcWithoutExt + `@3x.png`;
     const linksToImages = [
-      require('../../../' + imageMiddleName),
-      require('../../../' + imageLargeName)
+      require('../../../../' + imageMiddleName),
+      require('../../../../' + imageLargeName)
     ]
     return (
       <Fragment>

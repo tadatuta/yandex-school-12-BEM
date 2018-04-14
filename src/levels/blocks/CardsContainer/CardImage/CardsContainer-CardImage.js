@@ -11,7 +11,7 @@ export default decl({
     const imageMiddleName = srcWithoutExt + `@2x.png`;
     return (
       <Fragment>
-        <Bem elem="Image" tag="img" src={require('../../../' + imageMiddleName)} />
+        <Bem elem="Image" tag="img" src={require('../../../../' + imageMiddleName)} />
       </Fragment>
     )
   }

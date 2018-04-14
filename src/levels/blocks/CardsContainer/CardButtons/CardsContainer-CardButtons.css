@@ -17,9 +17,9 @@
 }
 
 .CardsContainer-ReadMoreButton {
-  background-image: url(../../../assets/Actions.png);
+  background-image: url(./images/Actions.png);
 }
 
 .CardsContainer-LikeButton {
-  background-image: url(../../../assets/Heart.png);
+  background-image: url(./images/Heart.png);
 }
