@@ -8,12 +8,8 @@ export default decl({
     let { src } = this.props;
     const regexp = /(.+).png/;
     const srcWithoutExt = src.match(regexp)[1];
-    const imageMiddleName = srcWithoutExt + `@2x.png`;
-    const imageLargeName = srcWithoutExt + `@3x.png`;
-    const linksToImages = [
-      require('../../../../' + imageMiddleName),
-      require('../../../../' + imageLargeName)
-    ]
+    const imageMiddlePath = require('../../../../' + srcWithoutExt + `@2x.png`);
+    const imageLargePath = require('../../../../' + srcWithoutExt + `@3x.png`);
     return (
       <Fragment>
         <Bem 
@@ -24,9 +20,9 @@ export default decl({
             elem="Source1" 
             tag="source"
             media="(min-width: 1480px)"
-            srcset={linksToImages[1]}
+            srcset={imageLargePath}
           />
-          <Bem elem="Image" tag="img" src={linksToImages[1]} />
+          <Bem elem="Image" tag="img" src={imageMiddlePath} />
         </Bem>
       </Fragment>
     )
