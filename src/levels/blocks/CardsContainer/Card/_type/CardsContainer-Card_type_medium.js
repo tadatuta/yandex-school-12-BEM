@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { declMod, Bem } from 'bem-react-core';
+import { declMod } from 'bem-react-core';
 
 import CardTitle from  'e:CardTitle';
 import CardImage from  'e:CardImage';

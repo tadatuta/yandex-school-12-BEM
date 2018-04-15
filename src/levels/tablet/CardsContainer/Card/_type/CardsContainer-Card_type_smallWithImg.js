@@ -1,9 +1,8 @@
 import React, { Fragment } from 'react';
-import { declMod, Bem } from 'bem-react-core';
+import { declMod } from 'bem-react-core';
 
 import CardTitle from  'e:CardTitle';
 import CardImage from 'e:CardImage';
-import CardDescription from 'e:CardDescription';
 import CardButtons from 'e:CardButtons';
 
 export default declMod({ type: 'smallWithImg' }, {
@@ -14,7 +13,6 @@ export default declMod({ type: 'smallWithImg' }, {
       title,
       titleColor,
       image,
-      description,
     } = this.props.data;
     return (
       <Fragment>

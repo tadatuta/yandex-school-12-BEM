@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react';
-import { decl, Bem } from 'bem-react-core';
+import React from 'react';
+import { decl } from 'bem-react-core';
 import TextTruncate from 'react-text-truncate';
 
 export default decl({

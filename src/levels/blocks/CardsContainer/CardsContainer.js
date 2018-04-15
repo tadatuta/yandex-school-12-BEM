@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { decl, Bem } from 'bem-react-core';
+import { decl } from 'bem-react-core';
 
 import cardsData from './data.js';
 

@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react';
-import { declMod, Bem } from 'bem-react-core';
+import { declMod } from 'bem-react-core';
 
 import CardTitle from  'e:CardTitle';
-import CardImage from 'e:CardImage';
 import CardDescription from 'e:CardDescription';
 import CardButtons from 'e:CardButtons';
 import CardChannel from 'e:CardChannel';

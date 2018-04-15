@@ -8,7 +8,6 @@ app.use(useragent.express());
 app.use(express.static(path.join(__dirname, './build')));
 
 app.get('/', function(req, res) {
-  //res.send(req.useragent);
   if(req.useragent.isMobile) {
     res.sendFile(path.join(__dirname, './html', 'mobile.html'))
   } 
